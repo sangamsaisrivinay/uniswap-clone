@@ -7,9 +7,24 @@ import { parseUnits } from 'ethers/lib/utils'
 
 import {ROUTER_ADDRESS} from '../config'
 
-const Exchange = () => {
+import {AmountIn, AmountOut, Balance} from './'
+
+import styles from '../styles'
+
+import { getAvailableTokens, getCounterPartTokens, findPoolByTokens, isOperationPending, getFailureMessage, getSuccessMessage } from '../utils'
+
+const Exchange = ({pools}) => {
   return (
-    <div>Exchange</div>
+    <div className='flex flex-col w-full items-center'>
+        <div className='mb-8'>
+            <AmountIn/>
+            <Balance/>
+        </div>
+        <div className='mb-8 w-[100%]'>
+            <AmountOut/>
+            <Balance/>
+        </div>
+    </div>
   )
 }
 
