@@ -1,0 +1,13 @@
+references
+
+https://ethereum.org/evolution-of-web
+https://medium.com/history-of-web
+https://binance.com/dex
+https://wikipedia.com/web3
+https://investopedia/dex
+https://coinbase.com/glossary
+https://gemini.com/glossary
+https://freecodecamp.org/blockchain-concepts
+https://researchgate.net/UML 
+https://javatpoint.com/UML-diagrams
+https://usedapp.com/create-eth-app
